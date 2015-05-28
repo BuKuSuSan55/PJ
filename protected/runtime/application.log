@@ -1,0 +1,384 @@
+2014/07/06 19:24:52 [error] [php] date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. Please use the date.timezone setting, the TZ environment variable or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Krasnoyarsk' for '7.0/no DST' instead (E:\DataBases\www\installYII\app\protected\views\layouts\main.php:51)
+Stack trace:
+#0 E:\DataBases\www\installYII\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 E:\DataBases\www\installYII\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#2 E:\DataBases\www\installYII\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#3 E:\DataBases\www\installYII\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#4 E:\DataBases\www\installYII\framework\web\CBaseController.php(206): CContentDecorator->run()
+#5 E:\DataBases\www\installYII\framework\web\CBaseController.php(300): SiteController->endWidget()
+#6 E:\DataBases\www\installYII\app\protected\views\layouts\column1.php(6): SiteController->endContent()
+#7 E:\DataBases\www\installYII\framework\web\CBaseController.php(126): require()
+#8 E:\DataBases\www\installYII\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#9 E:\DataBases\www\installYII\framework\web\CController.php(784): SiteController->renderFile()
+#10 E:\DataBases\www\installYII\app\protected\controllers\SiteController.php(32): SiteController->render()
+#11 E:\DataBases\www\installYII\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 E:\DataBases\www\installYII\framework\web\CController.php(308): CInlineAction->runWithParams()
+#13 E:\DataBases\www\installYII\framework\web\CController.php(286): SiteController->runAction()
+#14 E:\DataBases\www\installYII\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#15 E:\DataBases\www\installYII\framework\web\CWebApplication.php(282): SiteController->run()
+#16 E:\DataBases\www\installYII\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#17 E:\DataBases\www\installYII\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 E:\DataBases\www\installYII\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/installYII/app/
+in E:\DataBases\www\installYII\app\protected\views\layouts\main.php (51)
+in E:\DataBases\www\installYII\app\protected\views\layouts\column1.php (6)
+in E:\DataBases\www\installYII\app\protected\controllers\SiteController.php (32)
+2015/05/06 05:20:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+HTTP_REFERER=http://localhost/pro/sale/app/index.php
+---
+2015/05/06 05:20:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+HTTP_REFERER=http://localhost/pro/sale/app/index.php/sex/men
+---
+2015/05/06 05:20:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+HTTP_REFERER=http://localhost/pro/sale/app/index.php/sex/men
+---
+2015/05/06 05:20:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+HTTP_REFERER=http://localhost/pro/sale/app/index.php/sex/men
+---
+2015/05/06 05:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+HTTP_REFERER=http://localhost/pro/sale/app/index.php/sex/men
+---
+2015/05/06 05:23:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+---
+2015/05/06 05:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+---
+2015/05/06 05:23:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/Men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/Men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/Men
+---
+2015/05/06 05:24:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/Men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/Men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/Men
+---
+2015/05/06 05:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Sex/Men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Sex/Men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/Sex/Men
+---
+2015/05/06 05:24:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Sex/Men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Sex/Men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/Sex/Men
+---
+2015/05/06 05:24:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Sex/Men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Sex/Men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/Sex/Men
+---
+2015/05/06 05:24:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Sex/Men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Sex/Men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/Sex/Men
+---
+2015/05/06 05:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Sex/Men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Sex/Men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/Sex/Men
+---
+2015/05/06 05:34:45 [error] [exception.CException] exception 'CException' with message 'SexController ไม่สามารถค้นหา "//Project/main" ตามคำสั่งได้' in C:\xampp\htdocs\pro\sale\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\app\protected\controllers\sexController.php(6): CController->renderPartial('//Project/main')
+#1 C:\xampp\htdocs\pro\sale\framework\web\actions\CInlineAction.php(49): SexController->actionMen()
+#2 C:\xampp\htdocs\pro\sale\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\pro\sale\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\pro\sale\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): CController->run('men')
+#6 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#7 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+---
+2015/05/06 05:34:46 [error] [exception.CException] exception 'CException' with message 'SexController ไม่สามารถค้นหา "//Project/main" ตามคำสั่งได้' in C:\xampp\htdocs\pro\sale\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\app\protected\controllers\sexController.php(6): CController->renderPartial('//Project/main')
+#1 C:\xampp\htdocs\pro\sale\framework\web\actions\CInlineAction.php(49): SexController->actionMen()
+#2 C:\xampp\htdocs\pro\sale\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\pro\sale\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 C:\xampp\htdocs\pro\sale\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): CController->run('men')
+#6 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#7 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+---
+2015/05/06 05:34:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "main" ตามคำสั่งได้' in C:\xampp\htdocs\pro\sale\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/main')
+#3 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/main
+---
+2015/05/06 05:35:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "main" ตามคำสั่งได้' in C:\xampp\htdocs\pro\sale\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/main')
+#3 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/main
+---
+2015/05/06 05:36:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Project/main".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Project/main')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/Project/main
+---
+2015/05/06 05:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Project/main".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Project/main')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/Project/main
+---
+2015/05/06 05:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "main" ตามคำสั่งได้' in C:\xampp\htdocs\pro\sale\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Project/main')
+#3 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pro/sale/app/index.php/Project/main
+---
+2015/05/06 05:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "main" ตามคำสั่งได้' in C:\xampp\htdocs\pro\sale\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Project/main')
+#3 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pro/sale/app/index.php/Project/main
+---
+2015/05/06 05:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "main" ตามคำสั่งได้' in C:\xampp\htdocs\pro\sale\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Project/main')
+#3 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pro/sale/app/index.php/Project/main
+---
+2015/05/06 05:37:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "main" ตามคำสั่งได้' in C:\xampp\htdocs\pro\sale\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Project/main')
+#3 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pro/sale/app/index.php/Project/main
+---
+2015/05/06 05:37:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'ระบบไม่สามารถดำเนินการ "main" ตามคำสั่งได้' in C:\xampp\htdocs\pro\sale\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(270): CController->missingAction('main')
+#1 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): CController->run('main')
+#2 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('Project/main')
+#3 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/pro/sale/app/index.php/Project/main
+---
+2015/05/06 05:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "sex/men".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('sex/men')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/sex/men
+---
+2015/05/09 14:07:59 [error] [php] Undefined variable: branch (C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(869): ProjectController->renderFile()
+#1 C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php(20): ProjectController->renderPartial()
+#2 C:\xampp\htdocs\pro\sale\framework\web\actions\CInlineAction.php(49): ProjectController->actionSalelove()
+#3 C:\xampp\htdocs\pro\sale\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\pro\sale\framework\web\CController.php(286): ProjectController->runAction()
+#5 C:\xampp\htdocs\pro\sale\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#6 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): ProjectController->run()
+#7 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\pro\sale\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/pro/sale/app/index.php/Project/salelove
+in C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php (16)
+in C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php (20)
+in C:\xampp\htdocs\pro\sale\app\index.php (13)
+2015/05/09 14:08:00 [error] [php] Undefined variable: branch (C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(869): ProjectController->renderFile()
+#1 C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php(20): ProjectController->renderPartial()
+#2 C:\xampp\htdocs\pro\sale\framework\web\actions\CInlineAction.php(49): ProjectController->actionSalelove()
+#3 C:\xampp\htdocs\pro\sale\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\pro\sale\framework\web\CController.php(286): ProjectController->runAction()
+#5 C:\xampp\htdocs\pro\sale\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#6 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): ProjectController->run()
+#7 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\pro\sale\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/pro/sale/app/index.php/Project/salelove
+in C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php (16)
+in C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php (20)
+in C:\xampp\htdocs\pro\sale\app\index.php (13)
+2015/05/09 14:08:02 [error] [php] Undefined variable: branch (C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(869): ProjectController->renderFile()
+#1 C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php(20): ProjectController->renderPartial()
+#2 C:\xampp\htdocs\pro\sale\framework\web\actions\CInlineAction.php(49): ProjectController->actionSalelove()
+#3 C:\xampp\htdocs\pro\sale\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\pro\sale\framework\web\CController.php(286): ProjectController->runAction()
+#5 C:\xampp\htdocs\pro\sale\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#6 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): ProjectController->run()
+#7 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\pro\sale\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/pro/sale/app/index.php/Project/salelove
+in C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php (16)
+in C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php (20)
+in C:\xampp\htdocs\pro\sale\app\index.php (13)
+2015/05/09 14:08:03 [error] [php] Undefined variable: branch (C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(869): ProjectController->renderFile()
+#1 C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php(20): ProjectController->renderPartial()
+#2 C:\xampp\htdocs\pro\sale\framework\web\actions\CInlineAction.php(49): ProjectController->actionSalelove()
+#3 C:\xampp\htdocs\pro\sale\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\pro\sale\framework\web\CController.php(286): ProjectController->runAction()
+#5 C:\xampp\htdocs\pro\sale\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#6 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): ProjectController->run()
+#7 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\pro\sale\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/pro/sale/app/index.php/Project/salelove
+in C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php (16)
+in C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php (20)
+in C:\xampp\htdocs\pro\sale\app\index.php (13)
+2015/05/09 14:08:04 [error] [php] Undefined variable: branch (C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(869): ProjectController->renderFile()
+#1 C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php(20): ProjectController->renderPartial()
+#2 C:\xampp\htdocs\pro\sale\framework\web\actions\CInlineAction.php(49): ProjectController->actionSalelove()
+#3 C:\xampp\htdocs\pro\sale\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\pro\sale\framework\web\CController.php(286): ProjectController->runAction()
+#5 C:\xampp\htdocs\pro\sale\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#6 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): ProjectController->run()
+#7 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\pro\sale\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/pro/sale/app/index.php/Project/salelove
+in C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php (16)
+in C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php (20)
+in C:\xampp\htdocs\pro\sale\app\index.php (13)
+2015/05/09 14:08:04 [error] [php] Undefined variable: branch (C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(869): ProjectController->renderFile()
+#1 C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php(20): ProjectController->renderPartial()
+#2 C:\xampp\htdocs\pro\sale\framework\web\actions\CInlineAction.php(49): ProjectController->actionSalelove()
+#3 C:\xampp\htdocs\pro\sale\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\pro\sale\framework\web\CController.php(286): ProjectController->runAction()
+#5 C:\xampp\htdocs\pro\sale\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#6 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): ProjectController->run()
+#7 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\pro\sale\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/pro/sale/app/index.php/Project/salelove
+in C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php (16)
+in C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php (20)
+in C:\xampp\htdocs\pro\sale\app\index.php (13)
+2015/05/09 14:08:05 [error] [php] Undefined variable: branch (C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CController.php(869): ProjectController->renderFile()
+#1 C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php(20): ProjectController->renderPartial()
+#2 C:\xampp\htdocs\pro\sale\framework\web\actions\CInlineAction.php(49): ProjectController->actionSalelove()
+#3 C:\xampp\htdocs\pro\sale\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 C:\xampp\htdocs\pro\sale\framework\web\CController.php(286): ProjectController->runAction()
+#5 C:\xampp\htdocs\pro\sale\framework\web\CController.php(265): ProjectController->runActionWithFilters()
+#6 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(282): ProjectController->run()
+#7 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\pro\sale\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/pro/sale/app/index.php/Project/salelove
+in C:\xampp\htdocs\pro\sale\app\protected\views\Project\salelove.php (16)
+in C:\xampp\htdocs\pro\sale\app\protected\controllers\ProjectController.php (20)
+in C:\xampp\htdocs\pro\sale\app\index.php (13)
+2015/05/12 16:49:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "main".' in C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\pro\sale\framework\web\CWebApplication.php(141): CWebApplication->runController('main')
+#1 C:\xampp\htdocs\pro\sale\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\pro\sale\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/pro/sale/app/index.php/main
+---
